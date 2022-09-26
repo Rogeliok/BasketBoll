@@ -1,0 +1,12 @@
+/*y[0] = h;
+            x[0] = 0.0;
+            Vx[0] = V * Math.Cos(3.1415926535 * f / 180);
+            Vy[0] = V * Math.Sin(3.1415926535 * f / 180);
+            
+            for (int i = 1; i < n; i++)
+            {
+                Vx[i] = Vx[i - 1] * (1 - (a * dt) / m);
+                Vy[i] = Vy[i - 1] * (1 - (a * dt) / m) - dt * 9.81;
+                x[i] = x[i - 1] + dt * Vx[i - 1];
+                y[i] = y[i - 1] + dt * Vy[i - 1];
+            }*/
